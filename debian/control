@@ -1,0 +1,17 @@
+Source: serge
+Section: perl
+Priority: optional
+Maintainer: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper (>= 9),
+ perl
+Standards-Version: 3.9.6
+Homepage: https://serge.io
+
+Package: serge
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Solution for continuous localization
+ Serge (*String Extraction and Resource Generation Engine*) is a free,
+ open-source tool that helps you set up a seamless continuous localization
+ process for your software and marketing assets in a fully automated and
+ scalable fashion.
