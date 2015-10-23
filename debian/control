@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Hideki Yamane <henrich@debian.org>
 Build-Depends: debhelper (>= 9),
  perl, libauthen-sasl-perl, libdbd-sqlite3-perl, libjson-perl,
- libmime-lite-perl, libnet-smtp-ssl-perl, libxml-twig-perl, libyaml-perl,
- libxml-parser-perl, libxml-parser-style-ixtree-perl,
+ libmime-lite-perl, libnet-smtp-ssl-perl, libxml-twig-perl, 
+ libyaml-libyaml-perl, libxml-parser-perl, libxml-parser-style-ixtree-perl,
  libconfig-neat-perl (>= 1.204),
 Build-Depends-Indep: libfile-copy-recursive-perl,
  libtest-simple-perl (>= 0.94),
